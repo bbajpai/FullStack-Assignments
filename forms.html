@@ -1,0 +1,59 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>
+			Forms Page
+		</title>
+	</head>
+	<body>
+		<form method="GET" action="intraLink.html">
+			<label>First Name</label>
+			<input type="text" name="fName" placeholder="Enter First Name"><br/><br/>
+			<label>Last Name</label>
+			<input type="text" name="lName" placeholder="Enter Last Name">
+			<br><br>
+			<label>Email ID</label>
+			<input type="email" name="email" placeholder="abc@xyz.com">
+			<br/><br/>
+			<label>Enter Password</label>
+			<input type="password" name="pass">
+			<br/><br/>
+			<label>Confirm Password</label>
+			<input type="password" name="passConfirm">
+			<br/><br/>
+			<label>Gender</label>
+			<input type="radio" name="gender" value="male">Male
+			<input type="radio" name="gender" value="female">Female
+			<input type="radio" name="gender" value="others">Others
+
+			<br/><br/>
+			<label>Requested Locations</label>
+			<input type="checkbox" name="city">London
+			<input type="checkbox" name="city">Delhi
+			<input type="checkbox" name="city">Pune
+			<input type="checkbox" name="city">NCR
+
+			<br/><br/>
+			<label>Select Country</label>
+			<select>
+				<option>--- Select Country ---</option>
+				<option>India</option>
+				<option>UK</option>
+				<option>USA</option>
+				<option>Japan</option>
+			</select>
+
+			<br/><br/>
+			<label>Description</label>
+			<textarea cols="25" rows="3"></textarea>
+			<br/><br/>
+			<label>Choose Color</label>
+			<input type="color" name="favColor">
+			<br/><br/>
+			<label>DOB</label>
+			<input type="date" name="dob">
+			<br/><br/>
+			<input type="submit" name="submit" value="Submit">
+		</form>
+	</body>
+</html>
